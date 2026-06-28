@@ -1,25 +1,27 @@
-#hero {
+.hero {
     background-color: #2E2F42;
 }
 
-#hero h1 {
+.hero h1 {
     font-weight: 700;
-    font-size: 56;
-    line-height: 60px;
-    letter-spacing: 2%;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     color: #fff;
     text-align: center;
 }
 
-#hero button {
+.hero button {
     background-color: #4D5AE5;
     color: #fff;
-    border: 0;
-    border-radius: 4px; 
     font-weight: 500;
     font-size: 16px;
-    line-height: 14px;
-    letter-spacing: 4%;
-    width: 169px;
-    height: 56px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero button:hover,
+.hero button:focus {
+    background-color: #404bbf;
 }
