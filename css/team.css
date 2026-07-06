@@ -30,8 +30,8 @@
 
 .employer {
     display: block;
+    width: 264px;
     background-color: #FFFFFF;
-    margin: 0 auto;
     border-radius: 0 0 4px 4px;
 }
 
