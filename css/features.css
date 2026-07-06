@@ -1,7 +1,35 @@
+.features-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 344px;
+    align-items: center;
+
+}
+
+.features-container {
+    width: 90%;
+    height: 104px;
+}
+
+.our-features {
+    display: none;
+}
+
+.features-list {
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
 .feature-name {
     text-align: left;
 }
 
 .feature-description {
+    text-align: left;
+}
+
+.header-3.feature-name {
     text-align: left;
 }

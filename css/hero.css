@@ -1,5 +1,22 @@
 .hero {
     background-color: #2E2F42;
+    flex-direction: column;
+    padding-top: 188px;
+    padding-bottom: 188px;
+
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-container h1 {
+    text-align: center;
 }
 
 .hero h1 {
@@ -8,7 +25,12 @@
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    max-width: 496px;
+    margin-top: 0;
+    margin-bottom: 48px;
+
 }
 
 .hero button {
@@ -19,6 +41,13 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    padding: 16px 32px;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+
 }
 
 .hero button:hover,

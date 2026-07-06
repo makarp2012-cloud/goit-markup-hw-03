@@ -1,7 +1,53 @@
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
+.team-container {
+    width: 1158px;
+    padding: 32px 16px;
+    margin: 0 auto;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 12px;
+}
+
+.header-2 {
+    front-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
+
+.header-3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.paragraph {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
 .employer {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-card-content {
+    padding: 32px 16px;
 }

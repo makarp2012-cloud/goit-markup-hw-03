@@ -1,7 +1,23 @@
+.portfolio {
+    padding: 30px 0;
+}
+
 .project {
     text-align: left;
+
 }
 
 .project-description {
     text-align: left;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.header-2 {
+    text-align: center;
 }
