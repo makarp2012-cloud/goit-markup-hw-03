@@ -1,4 +1,6 @@
 .portfolio {
+    max-width: 1158px;
+    margin: 0 auto;
     padding: 30px 0;
 }
 
@@ -12,10 +14,14 @@
 }
 
 .portfolio-list {
+
+    padding: 0px 16px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-self: center;
+    gap: 12px;
 }
 
 .header-2 {

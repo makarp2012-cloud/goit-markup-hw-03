@@ -1,14 +1,18 @@
 .features-wrapper {
     display: flex;
     justify-content: center;
-    height: 344px;
     align-items: center;
+    padding-top: 120px;
+    padding-left: 120px;
 
 }
 
 .features-container {
-    width: 90%;
-    height: 104px;
+    width: 100%;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+
 }
 
 .our-features {
@@ -18,8 +22,10 @@
 .features-list {
     display: flex;
     gap: 12px;
+    width: 100%;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .feature-name {
@@ -28,8 +34,12 @@
 
 .feature-description {
     text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .header-3.feature-name {
     text-align: left;
+    margin-top: 0;
+    margin-bottom: 8px;
 }

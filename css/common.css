@@ -1,10 +1,30 @@
+.container {
+    width: 1158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
     margin: 0;
     line-height: 1.5;
-    width: 1158px;
 }
 
 ul {

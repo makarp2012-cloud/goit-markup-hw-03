@@ -5,31 +5,40 @@
 }
 
 .team-container {
-    width: 1158px;
-    padding: 32px 16px;
+    max-width: 1158px;
+    padding: 0px 16px;
     margin: 0 auto;
 }
 
 .team-list {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    align-items: center;
+    list-style: none;
     gap: 12px;
 }
 
+.feature {
+    width: 100%
+}
+
 .header-2 {
-    front-weight: 700;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-top: 0;
     margin-bottom: 72px;
+}
+
+.container.employer {
+    display: block;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    gap: 12px;
+
 }
 
 .header-3 {
@@ -42,11 +51,6 @@
     margin-bottom: 0;
 }
 
-
-.employer {
-    background-color: #FFFFFF;
-    width: calc((100% - 3 * 24px) / 4);
-}
 
 .team-card-content {
     padding: 32px 16px;
