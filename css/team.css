@@ -1,20 +1,21 @@
 .team {
     background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    height: 732px;
 }
 
-.team-container {
-    max-width: 1158px;
-    padding: 0px 16px;
-    margin: 0 auto;
+.team-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .team-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
-    list-style: none;
     gap: 12px;
 }
 
@@ -33,7 +34,7 @@
     margin-bottom: 72px;
 }
 
-.container.employer {
+.employer {
     display: block;
     background-color: #FFFFFF;
     margin: 0 auto;

@@ -7,10 +7,7 @@
 }
 
 .footer-container-wrapper {
-    max-width: 1158px;
-    padding: 0px 16px;
-    margin: 0 auto;
-    width: 80%;
+    width: 1158px;
     display: flex;
     justify-content: flex-start;
 }
