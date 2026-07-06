@@ -1,24 +1,22 @@
 .footer {
     background-color: #2e2f42;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 344px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-container-wrapper {
-    width: 1158px;
     display: flex;
     justify-content: flex-start;
 }
 
 .footer-container {
     width: 264px;
-    height: 112px;
 }
 
 .footer .logo {
+    display: inline-block;
     color: #f4f4fd;
+    margin-bottom: 16px;
 }
 
 .slogan {

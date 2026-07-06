@@ -1,26 +1,20 @@
 .team {
     background-color: #F4F4FD;
-    display: flex;
-    justify-content: center;
-    height: 732px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
 }
 
 .team-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 12px;
-}
-
-.feature {
-    width: 100%
+    gap: 24px;
 }
 
 .header-2 {
@@ -38,8 +32,11 @@
     display: block;
     background-color: #FFFFFF;
     margin: 0 auto;
-    gap: 12px;
+    border-radius: 0 0 4px 4px;
+}
 
+.employer img {
+    display: block;
 }
 
 .header-3 {

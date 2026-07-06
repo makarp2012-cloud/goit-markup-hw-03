@@ -1,9 +1,6 @@
 .features-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 344px;
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .features-container {
@@ -14,17 +11,17 @@
 
 }
 
-.our-features {
-    display: none;
-}
-
 .features-list {
     display: flex;
-    gap: 12px;
+    gap: 24px;
     width: 100%;
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.feature {
+    width: calc((100% - 24px * 3) / 4);
 }
 
 .feature-name {

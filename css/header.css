@@ -1,23 +1,14 @@
 .header {
     border-bottom: 1px solid #e7e9fc;
-    align-items: center;
-    max-width: 1158px;
-    padding: 0px 16px;
-    margin: 0 auto;
 }
 
 .header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
 }
 
-.nav-list-logo {
-    display: flex;
-    align-items: center;
+.nav-list {
+    margin-right: auto;
 }
 
 .logo {
@@ -51,12 +42,12 @@
 
 .nav-list-ul {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .nav-list-address {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .nav-link-400 {
